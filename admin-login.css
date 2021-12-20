@@ -1,0 +1,74 @@
+*,*:before,*:after{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Josefin Sans', sans-serif;
+	overflow: hidden;
+}
+body{
+	width: 100%;
+	height: 100%
+}
+.container{
+	background: #17191a;
+	color: white;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	
+}
+.login-container{
+	width: 30%;
+	
+	left:50%;
+	top:50%;
+	position: absolute;
+
+	padding: 25px;
+	transform: translate(-50%,-50%);
+	background-color: #242d33;
+}
+.title{
+	text-align: center;
+	width: 100%;
+	padding: 15px;
+
+}
+.registration{
+	width: 100%;
+	display: block;
+	float: left;
+	margin: 12px;
+}
+.registration label{
+	width: 100%;
+	display: block;
+	float: left;
+}
+.registration .input{
+	color: #008ce3;
+	background-color : black;
+	border: 3px solid #008ce3;
+	height: 35px;
+	width: 97%;
+}
+.input:focus{
+	background: white;
+	color: #008ce3;
+}
+#button{
+	display: block;
+	color: white;
+	background: #008ce3;
+	
+	border: none;
+	text-align: center;
+	text-decoration-color: red;
+	font-size: 20px;
+	margin: 2px auto;
+}
+#error{
+	margin: 12px;
+	color: #ff0000;
+	width: 100%;
+}

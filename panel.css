@@ -1,0 +1,221 @@
+*{
+	
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.head{
+	font-family: 'Oswald', sans-serif;
+	padding: 10px;
+	font-size: 14px;
+	background: white;
+	display:grid;
+	height: 45px;
+   	width: 100%;
+   	grid-template-columns: 5% 10% 79% 3% 3%;
+}
+#dashboard{
+	color:#153856; 
+}
+#strelka{
+
+	transform: rotate(90deg);
+}
+
+
+
+
+.content {
+	border: none;
+	height: 92.3%;
+   	width: 100%;
+   	position: absolute;
+    display: grid;
+    grid-template-columns: 15% 85%;
+}
+.avatar:hover{
+	cursor: pointer;
+}
+.menu{
+	
+	color: white;
+	background: #1A466B;
+}
+.menu > div{
+	font-family: 'Oswald', sans-serif;
+
+	padding: 1em;
+	width: 100%;
+	height: 45px;
+	font-size: 14px;
+	color: white;
+	background: #1A466B;
+}
+#hover:hover{
+	cursor: pointer;
+	background: #153856;
+}
+.tools {
+	
+	background: #e8e8e8;
+	height: 100%;
+   	width: 100%;
+   	display: grid;
+    text-align: center;
+}
+.homebox{
+	display: grid;
+    grid-template-columns: 25% 25%  25% 25%;
+}
+.box{
+	margin: 45px auto;
+	
+	background-color: white;
+	height: 100px;
+   	width: 100px;
+}
+.number{
+	font-family: 'Roboto', sans-serif;
+	font-size: 45px;
+	color: #0197C9;
+}
+.number-green{
+	font-family: 'Roboto', sans-serif;
+	font-size: 45px;
+	color: green;
+}
+.text{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	color: black;
+}
+.users{
+	grid-template-rows: 15% 85%;
+	display: grid;
+	margin: 45px;
+	background-color: white;
+	height: 85%;
+	width: 93%;
+}
+.user-title{
+	margin-top: 20px;
+	text-align: center;
+	font-size: 35px;
+	color: #0197C9;
+}
+.user-list{
+	text-align: left;
+	margin-left: 10%;
+	margin-right: 10%;
+	grid-template-columns: 5% 20% 20% 20% 20% 15%;
+	display: grid;
+	margin-top: 20px auto;
+	background-color: white;
+
+}
+#listsel{
+
+	border-radius: 0px;
+
+}
+.btn{
+	font-size: 15px;
+	height: 30px;
+	width: 100px;
+	border-radius: 5px;
+	transition: all 400ms ease;
+}
+.btn:hover{
+
+}
+#remove:hover{
+	color: white;
+	background: #ff4242;
+}
+#edit:hover{
+	background: #86BFF4;
+	color: white;
+
+}
+.tol{
+	width: 100%;
+	height: 45px;
+}
+.edit{
+	background: white;
+	grid-template-columns:20% 80%;
+	display: grid;
+	text-align: left;
+	margin: 40px ;
+}
+.before{
+}
+.before-title{
+	font-family: 'Oswald', sans-serif;
+	padding: 10px;
+	color:#1A466B;
+
+
+}
+#beforebox{
+	padding: 10px;
+	color:black;
+}
+.after-title{
+	font-family: 'Oswald', sans-serif;
+	padding: 10px;
+	color:green;
+
+
+}
+.afterbox{
+	padding: 10px;
+	color:black;
+}
+.afterbox > input{
+	border-radius: 5px;
+	height:23px;
+}
+.afterbox > input:focus{
+	transition: all 400ms ease;
+	border: 3px solid  #1A466B;
+
+}
+#edit-btn{
+	font-size: 15px;
+	height: 30px;
+	width: 100px;
+	border-radius: 5px;
+	transition: all 400ms ease;
+}
+#edit-btn:hover{
+	color: white;
+	background: green;
+}#add:hover{
+	 background: #16f26a;
+ }
+.addc{
+	text-align: left;
+	margin-top: 20px;
+	margin-right: 50px;
+	margin-left: 50px;
+	background: white;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.addcbox{
+	padding: 10px;
+	color:black;
+}
+.addcbox > input{
+	border-radius: 5px;
+	height:23px;
+}
+#addbutton{
+	width: 120px;
+}
+#addbutton:hover{
+	color:white;
+	background: #16f26a;
+
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Registration page</title>
+			<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width">
+			<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+			<link rel="stylesheet" type="text/css"  href="registration.css">
+		</head>
+
+		<body>
+			<div class="main">
+				<div class="box"></div>
+				<div class="middlebox">
+					<div class="box"></div>
+
+						<div class="login">
+
+							<form>
+								<div class="titles"><p><h1>Registration</h1></p></div>
+
+								<div class="minibox" ><label for="name">Name:<a id="errorname"></a></label><br>
+									<input type="text" name="name" placeholder="Enter Your Name" id="name"></div>
+								<div class="minibox"><label for="surname">Surname:<a id="errorsurname"></a></label><br>
+									<input type="text" name="surname" placeholder="Enter Your Surname" id="surname"></div>
+								<div class="minibox"><label for="login">Create Username:<a id="errorusername"></a></label><br>
+									<input type="text" name="username" id="username" placeholder="Create Username"></div>
+								<div class="minibox"><label for="password">Password:<a id="errorpassword"></a></label><br>
+									<input type="password" name="password" id="password" placeholder="Pick a Password"></div>
+								<div class="minibox"><label for="re-password">Re-Password:<a id="errorrepassword"></a></label><br>
+									<input type="password" name="re-password" placeholder="Repeat Password" id="repassword"></div>
+								<div class="minibox"><label for="email">Enter Email:<a id="erroremail"></a></label><br>
+									<input type="text" name="email" placeholder="Enter Your Email" id="email"></div>
+					<div class="minibox"><input type="button" name="submit" id="submit" value="Registration"></div>
+								<script type="text/javascript" src="registration.js"></script>
+							</form>
+						</div>
+					<div class="box"></div>
+				</div>
+				<div class="box"></div>
+			</div>
+		</body>
